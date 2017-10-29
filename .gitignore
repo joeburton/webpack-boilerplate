@@ -64,3 +64,4 @@ public/styles.css
 package-lock.json
 public/app.js.map
 public/styles.css.map
+.DS_Store

@@ -60,3 +60,7 @@ typings/
 # don't add generated files from webpack
 public/app.js
 public/styles.css
+
+package-lock.json
+public/app.js.map
+public/styles.css.map

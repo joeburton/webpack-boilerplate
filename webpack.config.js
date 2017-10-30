@@ -3,13 +3,13 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const path = require('path')
 
 const extractSass = new ExtractTextPlugin({
-  filename: "styles.css",
+  filename: "css/styles.css",
 });
 
 module.exports = {
-  entry: './src/index.js',
+  entry: './app/js/index.js',
   output: {
-    filename: 'app.js',
+    filename: 'js/app.js',
     path: path.resolve(__dirname, 'public')
   },
   devtool: "source-map", // any "source-map"-like devtool is possible
@@ -17,7 +17,7 @@ module.exports = {
     rules: [
       {
         test: /\.js$/,
-        include: path.resolve(__dirname, 'src'),
+        include: path.resolve(__dirname, 'app'),
         use: [{
           loader: 'babel-loader',
           options: {

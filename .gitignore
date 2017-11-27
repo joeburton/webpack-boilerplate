@@ -62,6 +62,8 @@ public/app.js
 public/styles.css
 
 package-lock.json
-public/app.js.map
-public/styles.css.map
+public/js/app.js
+public/js/app.js.map
+public/css/styles.css
+public/css/styles.css.map
 .DS_Store
